@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Climate Change Awareness</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fffafa;
+        }
+        header {
+            background-color: #2da529;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+      
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        h2{
+            margin-bottom: 60px;
+        }
+        .team-member img {
+            width: 100%;
+            margin: 12%;
+            border-radius: 50%;
+        }
+       
+        .modal-content {
+            text-align: center;
+        }
+        .team-member {
+            cursor: pointer;
+            position: relative;
+        }
+        .linkedin-icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 20px;
+            height: 20px;
+        }
+        .section-gap {
+            margin-top: 4em;
+            padding: 2em 0;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <p>Raising Awareness About Climate Change</p>
+    </header>
+    <div class="container mt-5 section-gap">
+        <h2 class="text-center" class=" text">Meet Our Team</h2>
+
+        <div class="row">
+            <div  class="col-md-3 text-center team-member" data-toggle="modal" data-target="#bioModal" data-name="Mahendra Pandey ( Founder )" data-role="Founder" data-email="mahendrap7379@gmail.com" data-phn="7379419002" data-qual="B.tech in Information Technology" data-bio="Conducting research on climate change impacts, collecting and analyzing data, and developing models to predict future climate scenarios." data-linkedin="https://www.linkedin.com/in/mahendra-pandey-my7379/">
+                <!-- <img src="path/to/your/image.jpg" alt="Mahendra Pandey"> -->
+                <h3>Mahendra Pandey</h3>
+                <p>Founder</p>
+                <a href="https://www.linkedin.com/in/mahendra-pandey-my7379/" target="_blank" class="linkedin-icon">
+                    <!-- <img src="LI-In-Bug.png" alt="LinkedIn Profile"> -->
+                </a>
+            </div>
+            <div  class="col-md-3 text-center team-member" data-toggle="modal" data-target="#bioModal" data-name="Desh Deepak Mishra (Co-Founder)" data-role="Co-Founder" data-email="deshdeepak7315@gmail.com" data-phn="6392646072" data-qual="B.Tech in Artificial Intelligence & Machine Learning" data-bio="Overseeing the entire project, ensuring timelines and goals are met, coordinating between different teams, managing resources and communicating with team members." data-linkedin="https://www.linkedin.com/in/desh-deepak-mishra-052269230">
+                <!-- <img src="path/to/your/image.jpg" alt="Desh Deepak Mishra"> -->
+                <h3>Desh Deepak Mishra</h3>
+                <p>Co-Founder</p>
+                <a href="https://www.linkedin.com/in/desh-deepak-mishra-052269230" target="_blank" class="linkedin-icon">
+                    <!-- <img src="LI-In-Bug.png" alt="LinkedIn Profile"> -->
+                </a>
+            </div>
+            <div  class="col-md-3 text-center team-member" data-toggle="modal" data-target="#bioModal" data-name="Kunal Singh ( Sustainability Specialist )" data-role="Sustainability Specialist" data-email="kunalsingh15@gmail.com" data-phn="7518767862" data-qual="B.tech in Information Technology" data-bio="Identifying and promoting sustainable practices, developing strategies to reduce carbon footprint, and ensuring compliance with environmental regulations." data-linkedin="https://www.linkedin.com/in/kunal-singh-kushwaha-744054259">
+                <!-- <img src="path/to/your/image.jpg" alt="Kunal Singh"> -->
+                <h3>Kunal Singh</h3>
+                <p>Sustainability Specialist</p>
+                <a href="https://www.linkedin.com/in/kunal-singh-kushwaha-744054259" target="_blank" class="linkedin-icon">
+                    <!-- <img src="LI-In-Bug.png" alt="LinkedIn Profile"> -->
+                </a>
+            </div>
+            <div  class="col-md-3 text-center team-member" data-toggle="modal" data-target="#bioModal" data-name="Ranjeet Kushwaha ( Technical Specialist )" data-role="Technical Specialist" data-email="ranjeetkushwaha121@gmail.com" data-phn="9045411081" data-qual="B.tech in Information Technology" data-bio="Providing technical support for data collection and analysis tools, managing the project’s technical infrastructure, and ensuring the integrity and security of data." data-linkedin="https://www.linkedin.com/in/ranjeet-kushwaha-a617841ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <!-- <img src="path/to/your/image.jpg" alt="Ranjeet Kushwaha"> -->
+                <h3>Ranjeet Kushwaha</h3>
+                <p>Technical Specialist</p>
+                <a href="https://www.linkedin.com/in/ranjeet-kushwaha-a617841ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="linkedin-icon">
+                    <!-- <img src="LI-In-Bug.png" alt="LinkedIn Profile"> -->
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 section-gap">
+        <section id="mission">
+            <h2 class="text-center">Our Mission</h2>
+            <p class="text-center">Climate Change Awareness, is vital for educating the public about the causes and impacts of climate change, promoting sustainable practices, and inspiring collective action. By raising awareness, we can drive policy changes, encourage environmentally responsible behaviors, and build a community dedicated to protecting our planet.</p>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="bioModal" tabindex="-1" aria-labelledby="bioModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-name"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="modal-role"></p>
+                    <p id="modal-phn"></p>
+                    <p id="modal-email"></p>
+                    <p id="modal-qual"></p>
+                    <p id="modal-bio"></p>
+                    <p id="modal-linkedin"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#bioModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var name = button.data('name');
+                var role = button.data('role');
+                var email = button.data('email');
+                var phn = button.data('phn');
+                var qual = button.data('qual');
+                var bio = button.data('bio');
+                var linkedin = button.data('linkedin');
+                var modal = $(this);
+                modal.find('.modal-title').text(name);
+                modal.find('.modal-body #modal-role').text('Role: ' + role);
+                modal.find('.modal-body #modal-email').text('Email: ' + email);
+                modal.find('.modal-body #modal-phn').text('Phone: ' + phn);
+                modal.find('.modal-body #modal-qual').text('Qualification: ' + qual);
+                modal.find('.modal-body #modal-bio').text(bio);
+                modal.find('.modal-body #modal-linkedin').html('<a href="' + linkedin + '" target="_blank">LinkedIn Profile</a>');
+            });
+        });
+    </script>
+</body>
+</html>
