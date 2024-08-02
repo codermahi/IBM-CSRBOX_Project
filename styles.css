@@ -27,6 +27,7 @@ nav ul {
 
 nav ul li {
     display: inline;
+    padding: 5px;
   
     margin: 0 1rem;
 }
@@ -47,11 +48,6 @@ nav ul li a {
 
 main {
     padding: 2rem;
-}
-h1{
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
 }
 
 section {
